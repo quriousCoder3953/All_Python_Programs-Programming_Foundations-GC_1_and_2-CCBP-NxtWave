@@ -1,0 +1,5 @@
+A = int(input())
+B = int(input())
+S = str(A + B)
+P = str(A * B)
+print(S[0]=='-' or P[0]=='-')
