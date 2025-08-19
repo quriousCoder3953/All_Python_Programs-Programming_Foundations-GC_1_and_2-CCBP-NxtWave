@@ -1,0 +1,5 @@
+W = input()
+A = int(W[0])
+B = int(W[1])
+C = int(W[2])
+print(A == B == C)
