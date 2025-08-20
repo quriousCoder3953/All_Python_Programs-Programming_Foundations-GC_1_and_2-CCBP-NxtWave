@@ -3,7 +3,9 @@ M = int(input())
 N = int(input())
 
 sum_of_numbers = 0
+i = M
 
-for i in range(M, M+N):
+while i < M+N:
     sum_of_numbers += i
+    i += 1
 print(sum_of_numbers)
