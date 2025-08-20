@@ -1,4 +1,7 @@
-A = input()
+S = input()
 
-for i in A:
-    print(i)
+i = 0
+
+while i < len(S):
+    print(S[i])
+    i += 1
