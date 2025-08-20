@@ -1,4 +1,6 @@
 N = int(input())
+i = 0
 
-for i in range(N):
+while i<N:
     print(i)
+    i+=1
