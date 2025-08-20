@@ -1,5 +1,6 @@
 M = int(input())
 N = int(input())
-
-for i in range(M+1, M+N+1):
+i = M+1
+while i < M+N+1:
     print(i)
+    i += 1
