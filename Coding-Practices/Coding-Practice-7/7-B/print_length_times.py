@@ -4,5 +4,8 @@ length_of_string = len(string)
 
 first_character = string[0]
 
-for i in range(length_of_string):
+i = 0
+
+while i < length_of_string:
     print(first_character)
+    i += 1
