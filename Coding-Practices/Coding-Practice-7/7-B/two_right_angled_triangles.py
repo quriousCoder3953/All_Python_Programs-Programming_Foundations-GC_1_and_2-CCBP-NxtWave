@@ -1,5 +1,9 @@
 N = int(input())
+i = 0
 
-for i in range(2):
-    for j in range(1, N+1):
+while i < 2:
+    j = 1
+    while j < N+1:
         print(str(j) * j)
+        j += 1
+    i += 1
