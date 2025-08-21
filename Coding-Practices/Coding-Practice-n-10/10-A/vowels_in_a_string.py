@@ -1,12 +1,12 @@
 S = input()
 
-vowels_list = ['a', 'e', 'i', 'o', 'u']
+vowels = "aeiou"
 
 VS = ""
 
 for i in S:
-    for j in vowels_list:
+    for j in vowels:
         if i == j:
             VS+=i
             
-print(VS)       
+print(VS)
